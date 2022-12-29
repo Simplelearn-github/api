@@ -4,7 +4,7 @@ import axios from 'axios'
 
 
 
-export default class  extends Component {
+export default class  Apitable extends Component {
     constructor(props) {
       super(props)
     
