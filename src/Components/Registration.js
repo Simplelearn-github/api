@@ -23,7 +23,7 @@ export default class Registration extends Component {
         e.preventDefault();
         const uname=this.state.name;
         const password=this.state.password;
-        console.log(uname+""+password);
+        document.getElementById('pass').innerHTML=" Name :"+this.state.name +"      and Password is:"+this.state.password
     }
     
   render() {
@@ -42,6 +42,7 @@ export default class Registration extends Component {
             <div  className='div'  >
                 <input style={{backgroundColor:'lightgreen'}} type="submit" />
             </div>
+            <div id='pass'></div>
         </form>
     
         </div>
