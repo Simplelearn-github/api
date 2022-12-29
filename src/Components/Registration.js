@@ -21,8 +21,7 @@ export default class Registration extends Component {
     submitHandler=(e)=>
     {
         e.preventDefault();
-        const uname=this.state.name;
-        const password=this.state.password;
+      
         document.getElementById('pass').innerHTML=" Name :"+this.state.name +"      and Password is:"+this.state.password
     }
     
