@@ -1,0 +1,21 @@
+.Header,.Footer{
+    background-color: aqua;
+}
+.links{
+    text-align: left;
+   
+}
+.links  ul li a{
+    text-decoration: none;
+}
+.div{
+    margin-bottom: 20px;
+    margin-left: auto;
+   
+}
+ label{
+    margin-bottom: 10px;
+}
+.register{
+    background-color: antiquewhite;
+}
